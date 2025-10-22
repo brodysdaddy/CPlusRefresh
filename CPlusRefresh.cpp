@@ -1,6 +1,7 @@
 #include <iostream>
 #include "classes.h"  // New include for testNoteClass
 #include "pointers.h" // New include for testPointers
+#include "fileio.h" // New include for fileIO
 using namespace std;
 
 float averageSamples(float a, float b) {
@@ -29,6 +30,8 @@ int main() {
     testNoteClass();
 
     testPointers(); // New call
+
+    testFileIO(); // New call
 
     return 0;
 }

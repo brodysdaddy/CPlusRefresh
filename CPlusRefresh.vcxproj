@@ -126,10 +126,12 @@
     <ClCompile Include="CPlusRefresh.cpp" />
     <ClCompile Include="arrays.cpp" />
     <ClCompile Include="classes.cpp" />
+    <ClCompile Include="fileio.cpp" />
     <ClCompile Include="pointers.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="classes.h" />
+    <ClInclude Include="fileio.h" />
     <ClInclude Include="pointers.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
